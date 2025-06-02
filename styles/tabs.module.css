@@ -1,0 +1,37 @@
+.tabContainer {
+  display: flex;
+}
+
+.tabPaymentButton {
+  width: 30%;
+  height: 60px;
+  border-radius: 14px;
+  border: 1px;
+  background: #e4e4e466;
+  margin-right: 10px;
+  font-family: "regular";
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  color: #8c8c8c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabPaymentButton.active {
+  width: 30%;
+  height: 60px;
+  border-radius: 14px;
+  border: 1px;
+  background: #32a92e;
+  font-family: "regular";
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+}
+
+.tabPaymentContent {
+  padding: 20px 0;
+}
